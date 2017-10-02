@@ -1,14 +1,14 @@
 const expect = chai.expect;
 
-describe('Fix the Scope', function () {
-  describe('declare customerName to be bob in global scope', function () {
-    it('returns the customerName', function () {
+describe('Fix the Scope', () => {
+  describe('declare customerName to be bob in global scope', () => {
+    it('returns the customerName', () => {
       expect(window.customerName).to.equal('bob');
     });
   });
 
-  describe('upperCaseCustomerName()', function () {
-    it('returns the customerName', function () {
+  describe('upperCaseCustomerName()', () => {
+    it('returns the customerName', () => {
       expect(window.customerName).to.equal('bob');
 
       upperCaseCustomerName();
@@ -16,8 +16,8 @@ describe('Fix the Scope', function () {
       expect(window.customerName).to.equal('BOB');
     });
   });
-  describe('setBestCustomer()', function () {
-    it('setBestCustomer', function () {
+  describe('setBestCustomer()', () => {
+    it('setBestCustomer', () => {
       expect(window.bestCustomer).to.equal(undefined);
 
       window.setBestCustomer();
@@ -26,22 +26,22 @@ describe('Fix the Scope', function () {
     });
   });
 
-  describe('overwriteBestCustomer()', function () {
-    it('overwrites the best customer', function () {
+  describe('overwriteBestCustomer()', () => {
+    it('overwrites the best customer', () => {
       overwriteBestCustomer('maybe bob');
 
       expect(window.bestCustomer).to.equal('maybe bob');
     });
   });
 
-  describe('reassignLeastFavorite()', function () {
-    it('unsuccessfully tries to reassign the least favorite customer', function () {
+  describe('reassignLeastFavorite()', () => {
+    it('unsuccessfully tries to reassign the least favorite customer', () => {
       expect(changeLeastFavoriteCustomer).to.throw(TypeError);
     });
   });
 
-  describe('attemptTwoFavoriteCustomers()', function () {
-    it('unsuccessfully tries to declare favoriteCustomer with let two times', function () {
+  describe('attemptTwoFavoriteCustomers()', () => {
+    it('unsuccessfully tries to declare favoriteCustomer with let two times', () => {
       expect(attemptTwoFavoriteCustomers).to.throw(SyntaxError);
     });
   });
