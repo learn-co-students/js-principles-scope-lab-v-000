@@ -1,25 +1,25 @@
 // Write your solution in this file!
-var customerName = 'bob'
-const leastFavoriteCustomer = 'angela'
+var customerName = 'bob';
+const leastFavoriteCustomer = 'angela';
 
 function upperCaseCustomerName () {
   customerName = customerName.toUpperCase();
 }
 
 function setBestCustomer () {
-  bestCustomer = 'not bob'
+  bestCustomer = 'not bob';
 }
 
 function overwriteBestCustomer () {
-  bestCustomer = 'maybe bob'
+  bestCustomer = 'maybe bob';
 }
 
 function changeLeastFavoriteCustomer () {
-  leastFavoriteCustomer = 'tugba'
-
+  leastFavoriteCustomer = 'tugba';
 }
 
 function attemptTwoFavoriteCustomers () {
-  let favoriteCustomer = 'dwight'
-  let favoriteCustomer = 'oscar'
+//  let favoriteCustomer = 'dwight';
+//This line of code is commmented out because declaring favoriteCustomer twice leads to an error
+  let favoriteCustomer = 'oscar';
 }
