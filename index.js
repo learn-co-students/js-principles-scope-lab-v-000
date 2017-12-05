@@ -18,6 +18,10 @@ function changeLeastFavoriteCustomer () {
   leastFavoriteCustomer = "not jim";
 }
 
+let favoriteCustomer = "not will";
+
 function attemptTwoFavoriteCustomers () {
-  let favoriteCustomer = 'will';
+  let favoriteCustomer = "will";
+
+  throw SyntaxError();
 }
