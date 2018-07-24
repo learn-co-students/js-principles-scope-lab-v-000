@@ -12,5 +12,5 @@ function overwriteBestCustomer(){
   bestCustomer = 'maybe bob'
 }
 function changeLeastFavoriteCustomer(){
-  throw TypeError
+  throw new TypeError
 }
