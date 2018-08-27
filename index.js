@@ -16,5 +16,4 @@ function overwriteBestCustomer(){
 
 function changeLeastFavoriteCustomer(){
   leastFavoriteCustomer = customerName;
-  // throw TypeError;
 }
