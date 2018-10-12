@@ -2,7 +2,7 @@ var customerName = 'bob';
 const leastFavoriteCustomer = 'mary';
 
 function upperCaseCustomerName() {
-    customerName = 'BOB';
+    // customerName = 'BOB'; or
     customerName = customerName.toUpperCase();
   
     //notice that there is no return statement
