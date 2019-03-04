@@ -1,4 +1,4 @@
-customerName = "bob";
+var customerName = "bob";
 
 function upperCaseCustomerName() {
   customerName = "BOB";
@@ -10,4 +10,8 @@ function setBestCustomer() {
 
 function overwriteBestCustomer() {
   bestCustomer = "maybe bob";
+}
+
+function changeLeastFavoriteCustomer {
+  c
 }
