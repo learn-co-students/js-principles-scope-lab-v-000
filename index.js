@@ -5,5 +5,5 @@ function upperCaseCustomerName() {
 }
 
 function setBestCustomer() {
-  
+  var bestCustomer;
 }
