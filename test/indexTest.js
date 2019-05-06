@@ -28,6 +28,7 @@ describe('Fix the Scope', function() {
 
   describe('overwriteBestCustomer()', function() {
     it('overwrites the best customer', function() {
+
       overwriteBestCustomer('maybe bob');
 
       expect(window.bestCustomer).to.equal('maybe bob');
