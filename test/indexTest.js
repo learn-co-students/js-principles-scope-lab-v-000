@@ -40,3 +40,17 @@ describe('Fix the Scope', function() {
     });
   });
 });
+
+import java.util.Scanner
+class name
+public static void main (String args[){
+  Scanner name = new Scanner(System.in);
+}
+
+name = user_input
+var customerName(puts name)
+upperCaseCustomerName(#{name})
+setBestCustomer = 'not bob'
+overwriteBestCustomer()
+leastFavoriteCustomer(Molly)
+changeLeastFavoriteCustomer()
