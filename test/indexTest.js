@@ -11,7 +11,7 @@ describe('Fix the Scope', function() {
     it('modifies the customerName variable', function() {
       expect(window.customerName).to.equal('bob');
 
-      upperCaseCustomerName();
+      upperCaseCustomerName(customerName);
 
       expect(window.customerName).to.equal('BOB');
     });
@@ -20,7 +20,7 @@ describe('Fix the Scope', function() {
     it('setBestCustomer', function() {
       expect(window.bestCustomer).to.equal(undefined);
 
-      setBestCustomer();
+      setBestCustomer(bestCustomer);
 
       expect(window.bestCustomer).to.equal('not bob');
     });
@@ -40,3 +40,4 @@ describe('Fix the Scope', function() {
     });
   });
 });
+ 
